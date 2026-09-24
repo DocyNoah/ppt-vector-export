@@ -1,0 +1,26 @@
+{
+  "name": "ppt-vector-export",
+  "version": "0.1.0",
+  "description": "Export one-slide PowerPoint figures to vector-preserving PDF and SVG.",
+  "author": {
+    "name": "DocyNoah",
+    "url": "https://github.com/DocyNoah"
+  },
+  "homepage": "https://github.com/DocyNoah/ppt-vector-export",
+  "repository": "https://github.com/DocyNoah/ppt-vector-export",
+  "keywords": ["powerpoint", "pptx", "pdf", "svg", "vector", "figures"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PowerPoint Vector Export",
+    "shortDescription": "Export PowerPoint diagrams to vector PDF and SVG",
+    "longDescription": "Preserve native PowerPoint shapes and arrowheads, restore embedded SVG artwork when export rasterizes it, and verify the resulting PDF and SVG.",
+    "developerName": "DocyNoah",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "websiteURL": "https://github.com/DocyNoah/ppt-vector-export",
+    "defaultPrompt": [
+      "Export my PowerPoint figure as vector PDF and SVG.",
+      "Check whether this PPTX export rasterized its embedded SVG artwork."
+    ]
+  }
+}

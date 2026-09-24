@@ -1,0 +1,3 @@
+interface:
+  display_name: "PowerPoint Vector Export"
+  short_description: "Export PowerPoint figures to vector PDF and SVG"
